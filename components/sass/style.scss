@@ -11,16 +11,16 @@
 @import "variables";
 @import "mixins";
 @import "base";
-@import "modules";
+
+//powalisz portfolio
+@import "about-designer";
+@import "about-developer";
+@import "portfolio";
+@import "header";
+@import "banner";
+@import "contact";
+@import "footer";
 
 // JS partials
 @import "pixgrid";
 @import "rclick";
-
-
-
-
-
-
-
-

@@ -3,12 +3,12 @@ var gulp = require('gulp'),
     coffee = require('gulp-coffee'),
     concat = require('gulp-concat'),
     browserify = require('gulp-browserify'),
-    compass = require('gulp-compass');
+    compass = require('gulp-compass'); 
 
     
 
 var coffeeSources = ['components/coffee/tagline.coffee'];
-var jsSources = [
+var jsSources = [  
     'components/scripts/rclick.js',
     'components/scripts/pixgrid.js',
     'components/scripts/tagline.js',
@@ -16,7 +16,7 @@ var jsSources = [
     'node_modules/bootstrap-v4-dev/js/dist/dropdown.js'
 ];
 
-var sassSources = ['components/sass/style.scss'];
+var sassSources = ['components/sass/style.scss']
 
 gulp.task('coffee', function () {
     gulp.src(coffeeSources)

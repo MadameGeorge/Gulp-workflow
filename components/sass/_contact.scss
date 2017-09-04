@@ -1,0 +1,17 @@
+.contact {
+    background: $secondary;
+//    background: url(../../builds/development/images/IMG_1232.png) no-repeat fixed;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.contact_photo {
+    background: url(../../builds/development/images/contact_photo.png) no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    position: absolute;
+    left: inherit;
+    right: inherit;
+    bottom: -20%;
+}
