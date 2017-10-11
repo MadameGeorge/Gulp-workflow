@@ -1,64 +1,280 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <title>Roux Academy Meetups</title>
-  <link rel='stylesheet' href='css/style.css' />
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="_css/bootstrap.css">
+    <link rel="stylesheet" href="_css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="_css/bootstrap-grid.css">
+    <link rel="stylesheet" href="_css/styles.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<title>Ecopol</title>
 </head>
+
 <body>
-
-    <header>
-        <div class="header">
-            <h1>Magdalena Powalisz</h1>
-        </div>
-    </header>
-    
-    <section class="banner wrapper">
-        <h2>Passionate Graphic Designer</h2>
-        <h3>with 9 Years' Experience in Graphic Design & Junior Front-End Developer Skills</h3>
-    </section>
-    
-    <section class="about-designer wrapper">
-        <h4><span>Quality</span><span>Detail</span><span>Idea</span></h4>
-        <h2>Experienced Designer</h2>
-        <h3>I've been a graphic designer for 9 years now. I have witnessed the market changing very dynamically due to extremely fast technology development.</h3>
-        <p>I've been a graphic designer for 9 years now. I have witnessed the market changing very dynamically due to extremely fast technology development. Started my career path as a book and newspaper designer I only had to deal with a print related restrictions and deliver pixel perfect solutions. When it was obvious that print was leaving room to digital I couldn’t help myself not to put my interest in the new, fast growing and dynamic area. I immediately started to learn. Designing graphics for RWD websites soon became my full-time job.</p>
-    </section>
-
-    <section class="about-developer wrapper">
-        <h4><span>Curiosity</span><span>Hard Work</span><span>Constant Development</span></h4>
-        <h2>Self-learned Developer</h2>
-        <h3>Everyday contact and strong cooperation with developers had shown me how important it is for them to know at least basics of theory of graphic design and for me to know what are the restrictions and boundaries I should not have been pushing. </h3>
-        <p>As I kept learning I noticed that user experience centered design shares similar rules to the ones I went by in my typography works. Web grid is nothing more than newspaper grid. CSS works exactly like InDesign’s paragraph or object styles. It is all the same, only the rules are different. It was the moment I decided I want to learn something completely new, but where I could also use the knowledge I have already gained. This "journey" had already begun and now, knowing HTML, CSS and Javascript, I would love to have an opportunity to work with you.</p>
-    </section>
-
-    <section class="portfolio wrapper">
-        <h4><span>Typography</span><span>Color</span><span>User Experience</span></h4>
-        <h2>Portfolio</h2>
-    </section>
-    
-    <section class="contact wrapper">
-        <h2>Contact Form</h2>
-        <div class="contact-form">
+    <header>  
+        <nav class="navbar navbar-toggleable-sm justify-content-end">  
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsingMenu" aria-controls="#collapsingMenu" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon">
+                    <img src="_images/menu.svg">
+                </span>
+                </button>
             
-        </div>
-        <div class="contact_photo">
-            <img src="images/contact_photo.png">
-        </div>
-    </section>
+                <a class="navbar-brand" href="index.html">
+                    <img src="_images/logo_blac.png" alt="ecopol logo" width="80px">
+                </a>
+                
+                <div class="collapse navbar-collapse" id="collapsingMenu"> <!-- collapsing wrapping the links -->
+                <div class="navbar-nav">
+                    <a class="nav-link nav-item" href="#">Usuwanie azbestu</a>
+                    <a class="nav-link nav-item" href="#">Poznaj nas</a>
+                    <a class="nav-link nav-item" href="#">Składowisko</a>
+                    <a class="nav-link nav-item" href="#">Praca</a>
+                    <a class="nav-link nav-item" href="#">Kontakt</a>
+                </div>
+                </div> <!-- end of collapsing-->    
+        </nav> <!-- nawigacja -->  
+        
+        
+           <img class="header__baner" src="../_images/baner-top-min-filter.jpg">
+            <div class="container">
+                <h1>KOMPLEKSOWE USŁUGI ZWIĄZANE Z GOSPODARKĄ MATERIAŁAMI NIEBEZPIECZNYMI ZAWIERAJĄCYMI <strong>AZBEST</strong></h1>
+            </div>
+    </header> <!-- baner -->  
     
+    
+    <section id="about" class="section__background section__background--dark"> 
+        <div class="container content-wrap">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-4">
+                    <h2>Bezpieczeństwo, doświadczenie i skuteczność</h2>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-8 about__textFlow">
+                    <h4>ECO-POL to ponad 10 lat doświadczenia</h4>
+                    <p>Firma Eco-Pol sp. z o.o. z siedzibą w Pruszczu przy ul. Dworcowej swą działalność rozpoczęła w październiku 2005 roku. Jesteśmy właścicielem składowiska znajdującego się w miejscowości Małociechowo, gmina Pruszcz, 30 km od Bydgoszczy na trasie Bydgoszcz-Świecie. 
+                    Uzyskane doświadczenia oraz stosowne decyzje i pozwolenia dają nam do zaoferowania Państwu zgodną z prawem i bezpieczeństwem kompleksową usługę związaną z gospodarką materiałów niebezpiecznych zawierających azbest.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <button class="btn btn-primary float-right" type="button">
+                    <label>Dowiedz się więcej</label>
+                    </button>
+                </div>
+            </div>
+        </div> <!-- wrapper -->  
+    </section> <!-- section About-->  
+	
+    
+    <section id="oferta" class="section__background section__background--light">
+        <div class="container content-wrap">
+            <div class="row">
+                <div class="col-sm-4">
+                <h2>Oferta</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-11 offset-md-1 col-xl-5 offset-1">
+                   <img class="oferta__photo" src="_images/photo_1.jpg">
+                    <h3>Usuwanie azbestu</h3>
+                    <p>Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę</p>
+                    <button class="btn btn-primary" type="button">Czytaj więcej</button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-11 offset-md-1 col-xl-5 offset-1">
+                   <img class="oferta__photo" src="_images/photo_2.jpg">
+                    <h3>Usuwanie ładowarką</h3>
+                    <p>Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę</p>
+                    <button class="btn btn-primary" type="button">Czytaj więcej</button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-11 offset-md-1 col-xl-5 offset-1">
+                   <img class="oferta__photo" src="_images/photo_3.jpg">
+                    <h3>Usługi remontowe i dekarskie</h3>
+                    <p>Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę</p>
+                    <button class="btn btn-primary" type="button">Czytaj więcej</button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-11 offset-md-1 col-xl-5 offset-1">
+                   <img class="oferta__photo" src="_images/photo_4.jpg">
+                    <h3>Transport HDS</h3>
+                    <p>Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę. Lorem ipsum. Tekst opisujący daną usługę</p>
+                    <button class="btn btn-primary" type="button">Czytaj więcej</button>
+                </div>
+            </div>
+        </div> <!-- wrapper --> 
+    </section> <!-- section Oferta --> 
+
+    
+    <section id="zakresPrac" class="section__background section__background--dark">
+        <div class="container content-wrap">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2>Zakres wykonywanych prac</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs col-sm-6 col-md-4 col-xl-2">
+                    <div class="zakresPrac__imgMargin">
+                    <img src="_images/eye_icon.png">
+                    </div>
+                    <h6>Ocena stanu technicznego wyrobów zawierających azbest</h6>
+                </div>
+                
+                <div class="col-xs col-sm-6 col-md-4 col-xl-2">
+                    <div class="zakresPrac__imgMargin">
+                    <img src="_images/paper_icon.png">
+                    </div>
+                    <h6>Wystawienie oświadczeń po wykonanych pracach</h6>
+                </div>
+                    
+                <div class="col-xs col-sm-6 col-md-4 col-xl-2">    
+                    <div class="zakresPrac__imgMargin"><img src="_images/tools_icon.png"></div>
+                <h6>Demontaż, rozbiórka i usuwanie azbestu</h6>
+                </div>
+                    
+                <div class="col-xs col-sm-6 col-md-4 col-xl-2">    
+                    <div class="zakresPrac__imgMargin">
+                    <img src="_images/lab_icon.png">
+                    </div>
+                    <h6>Wykonywanie badań przed rozbiórką w trakcie i po wykonaniu prac</h6>
+                </div>
+                    
+                <div class="col-xs col-sm-6 col-md-4 col-xl-2">    
+                    <div class="zakresPrac__imgMargin">
+                    <img src="_images/car_icon.png">
+                    </div>
+                    <h6>Transport odpadów niebezpiecznych </h6>
+                </div>
+                    
+                <div class="col-xs col-sm-6 col-md-4 col-xl-2">    
+                    <div class="zakresPrac__imgMargin">
+                    <img src="_images/twister_icon.png">
+                    </div>    
+                    <h6>Utylizacja odpadów na własnym Składowisku w gminie Pruszcz</h6>
+                </div>    
+            </div>
+        </div> <!-- wrapper --> 
+    </section> <!-- section zakresPrac --> 
+    
+    
+    <section id="aktualnosci" class="section__background section__background--light">  
+        <div class="container content-wrap">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-xl-4">
+                    <h2>Aktualności</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-xl-4">
+                    <h4>Artykuł 1</h4>
+                    <p>Firma Eco-Pol sp. z o.o. z siedzibą w Pruszczu przy ul. Dworcowej swą działalność rozpoczęła w październiku 2005 roku. Jesteśmy właścicielem składowiska znajdującego się w miejscowości Małociechowo, gmina Pruszcz, 30 km od Bydgoszczy na trasie Bydgoszcz-Świecie. 
+                    Uzyskane doświadczenia oraz stosowne decyzje i pozwolenia dają nam do zaoferowania Państwu zgodną z prawem i bezpieczeństwem kompleksową usługę związaną z gospodarką materiałów niebezpiecznych zawierających azbest.</p>
+                    <button class="btn btn-secondary float-right" type="button">
+                        <label>Czytaj dalej</label>
+                    </button>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-xl-4">
+                    <h4>Artykuł 2</h4>
+                    <p>Firma Eco-Pol sp. z o.o. z siedzibą w Pruszczu przy ul. Dworcowej swą działalność rozpoczęła w październiku 2005 roku. Jesteśmy właścicielem składowiska znajdującego się w miejscowości Małociechowo, gmina Pruszcz, 30 km od Bydgoszczy na trasie Bydgoszcz-Świecie. 
+                    Uzyskane doświadczenia oraz stosowne decyzje i pozwolenia dają nam do zaoferowania Państwu zgodną z prawem i bezpieczeństwem kompleksową usługę związaną z gospodarką materiałów niebezpiecznych zawierających azbest.</p>
+                    <button class="btn btn-secondary float-right" type="button">
+                        <label>Czytaj dalej</label>
+                    </button>
+                </div>
+            </div>
+        </div> <!-- wrapper --> 
+    </section> <!-- section Aktualnosci --> 
+    
+    
+    <section id="zaufaliNam" class="section__background section__background--white">  
+        <div class="container content-wrap">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Zaufali nam</h2>
+                </div>    
+                </div>
+            <div class="row">
+                <h6> logo </h6>
+                <h6> logo </h6>
+                <h6> logo </h6>
+                <h6> logo </h6>
+                <h6> logo </h6>
+                <h6> logo </h6>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <button class="btn btn-primary float-right" type="button">
+                        <label>Dowiedz się więcej</label>
+                    </button>
+                </div>
+            </div>
+        </div> <!-- wrapper -->
+    </section> <!-- section zaufaliNam -->
+    
+    
+<footer class="section__background section__background--dark">
+        <div class="container content-wrap">
+            <div class="row align-items-end">
+                <div class="col-xs-12 col-sm-6 flex-sm-first col-md-3 col-xl-3 footer__elementsMargin">
+                    <a href="index.html"><img src="_images/ecopol_logo_black.png" alt="logo ecopol"></a>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3 col-xl-3 footer__elementsMargin align-items-end">
+                    <img class="footer__imgMargin float-left" src="_images/map.png">
+                    <p>Składowisko Azbestu<br>Małociechowo<br>86-120 Pruszcz</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 footer__elementsMargin">
+                    <img class="footer__imgMargin float-left" src="_images/phone.png">
+                    <p>tel. 698 364 471</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 footer__elementsMargin">
+                    <img class="footer__imgMargin float-left" src="_images/envelope.png">
+                    <p>ecopolpruszcz@gmail.com</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 flex-sm-first col-md-3 col-xl-3 footer__elementsMargin">
+                      <lead>W trosce o lepsze jutro</lead>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 footer__elementsMargin align-items-end">
+                    <img class="footer__imgMargin float-left" src="_images/map.png">
+                    <p>Składowisko Azbestu<br>Małociechowo<br>86-120 Pruszcz</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 footer__elementsMargin">
+                    <img class="footer__imgMargin float-left" src="_images/phone.png">
+                    <p>tel. 698 364 471</p>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 footer__elementsMargin">
+                    <img class="footer__imgMargin float-left" src="_images/envelope.png">
+                    <p>ecopolpruszcz@gmail.com</p>
+                </div>
+            </div>
+            <div class="row justify-content-between footer__credits">
+                <div class="col-sm-auto">
+                    <p>Copyright 2017 Ecopol</p>
+                </div>
+                <div class="col-sm-auto">   
+                    <p>Projekt i realizacja &nbsp;
+                    <a href="http://devhero.pl">
+                        <img src="_images/devhero_logo.png" alt="logo devhero" height="15px">
+                    </a>
+                </div>
+            </div>
+        </div> <!-- wrapper -->
+</footer> <!-- footer -->
 
 
-    <footer class="wrapper">
-        <h4 class="title">Contact her</h4>
-        <ul>
-          <li><a phoneto="0048880559822">0048 880 559 822</a></li>
-          <li><a mailto="powalisz@powalisz.pl">powalisz@powalisz.pl</a></li>
-        </ul>
-        <p class="footer-note">This website was designed and developed all by herself</p>
-    </footer>
-    
-<script src="js/script.js"></script>
-<script src="http://localhost:35729/livereload.js"></script>
+<!-- scripts -->
+<script src="_js/jquery-3.2.1.min.js"></script>
+<script src="_js/bootstrap.js"></script>
+<script src="_js/script.js"></script>
+<script src="_js/tether.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script> 
+<!-- scripts -->
+
 </body>
 </html>
