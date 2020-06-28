@@ -1,4 +1,4 @@
-# My Workflow
+# Gulp workflow
 
 gulp
 util
